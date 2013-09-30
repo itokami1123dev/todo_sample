@@ -15,4 +15,21 @@ describe ("TodoModel", function() {
 			expect(todoModel).toBeDefined();
 		});
 	});
+
+	describe ("#setNameメソッド", function() {
+		it("名称の設定が出来る事",function(){
+			todoModel.setName('テスト名称');
+			var name = todoModel.getName();
+			expect( name).toEqual('テスト名称');
+		}); 
+	});
+	
+	describe ("#setDone", function() {
+		it("完了フラグの設定が出来る事",function(){
+			todoModel.setDone(true);
+			var done = todoModel.getDone();
+			expect( done).toBeTruthy();
+		}); 
+	});
+
 });
