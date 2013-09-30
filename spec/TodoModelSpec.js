@@ -14,6 +14,5 @@ describe ("TodoModel", function() {
 		it("初期化", function() {
 			expect(todoModel).toBeDefined();
 		});
-	
 	});
 });
