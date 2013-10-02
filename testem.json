@@ -2,8 +2,10 @@
 	"framework" : "jasmine",
 	"launch_in_dev" : [ "chrome" ],
 	"src_files" : [
+		"js/underscore-min.js",
 		"js/lib/jquery-2.0.0.js",
 		"js/main.js",
-		"spec/TodoModelSpec.js"
+		"spec/TodoModelSpec.js",
+		"spec/TodoListModelSpec.js"
 	]
 }
