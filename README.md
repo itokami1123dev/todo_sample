@@ -9,7 +9,7 @@ documentation comments
 
 test code
 - Jasmine
-- http://pivotal.github.io/jasmine/
+- https://jasmine.github.io/
 
 test tool
 - testem
